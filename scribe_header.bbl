@@ -1,0 +1,31 @@
+\begin{thebibliography}{}
+
+\bibitem[Blei et~al., 2010]{Blei2010}
+Blei, D.~M., Griffiths, T.~L., Jordan, M.~I., Blei, D.~M., and Jordan, M.~I.
+  (2010).
+\newblock {The Nested Chinese Restaurant Process and Bayesian Nonparametric
+  Inference of Topic Hierarchies}.
+\newblock {\em J. ACM Journal of the ACM}, 57(7).
+
+\bibitem[Gershman and Blei, 2011]{Gershman2011}
+Gershman, S.~J. and Blei, D.~M. (2011).
+\newblock {A Tutorial on Bayesian Nonparametric Models}.
+
+\bibitem[Griffiths et~al., 2011]{Griffiths2011}
+Griffiths, T.~L., Edu, T.~G., Ghahramani, Z., and Uk, Z. C.~A. (2011).
+\newblock {The Indian Buffet Process: An Introduction and Review}.
+\newblock {\em Journal of Machine Learning Research}, 12:1185--1224.
+
+\bibitem[Newman et~al., 2009]{Newman}
+Newman, D., Asuncion, A., Smyth, P., and Welling, M. (2009).
+\newblock {Distributed Algorithms for Topic Models}.
+\newblock {\em Journal of Machine Learning Research}, 10.
+
+\bibitem[Raykov et~al., 2016]{Raykov2016}
+Raykov, Y.~P., Boukouvalas, A., Baig, F., Little, M.~A., Ermani, M., and
+  Battistin, L. (2016).
+\newblock {What to Do When K-Means Clustering Fails: A Simple yet Principled
+  Alternative Algorithm}.
+\newblock {\em PLOS ONE}, 11(9):e0162259.
+
+\end{thebibliography}

@@ -1,0 +1,67 @@
+@article{Blei2010,
+abstract = {We present the nested Chinese restaurant process (nCRP), a stochastic process that assigns probability distributions to ensembles of inÞnitely deep, inÞnitely branching trees. We show how this stochastic process can be used as a prior distribution in a Bayesian nonparametric model of document collections. SpeciÞcally, we present an application to information retrieval in which documents are modeled as paths down a random tree, and the preferential attachment dynamics of the nCRP leads to clustering of documents according to sharing of topics at multiple levels of abstraction. Given a corpus of documents, a posterior inference algorithm Þnds an approximation to a posterior distribution over trees, topics and allocations of words to levels of the tree. We demonstrate this algorithm on collections of scientiÞc abstracts from several journals. This model exempliÞes a recent trend in statistical machine learning—the use of Bayesian nonparametric methods to infer distributions on {\ss}exible data structures.},
+author = {Blei, David M and Griffiths, Thomas L and Jordan, Michael I and Blei, D M and Jordan, M I},
+doi = {10.1145/1667053.1667056},
+file = {:home/genevieve/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Blei et al. - 2010 - The Nested Chinese Restaurant Process and Bayesian Nonparametric Inference of Topic Hierarchies.pdf:pdf},
+journal = {J. ACM Journal of the ACM},
+keywords = {Bayesian nonparametric statistics,unsupervised learning},
+number = {7},
+title = {{The Nested Chinese Restaurant Process and Bayesian Nonparametric Inference of Topic Hierarchies}},
+url = {https://cocosci.berkeley.edu/tom/papers/ncrp.pdf},
+volume = {57},
+year = {2010}
+}
+@article{Gershman2011,
+abstract = {A key problem in statistical modeling is model selection, how to choose a model at an appropriate level of complexity. This problem appears in many settings, most prominently in choosing the number of clusters in mixture models or the number of factors in factor analysis. In this tutorial we describe Bayesian nonparametric methods, a class of methods that side-steps this issue by allowing the data to determine the complexity of the model. This tutorial is a high-level introduction to Bayesian nonparametric methods and contains several examples of their application.},
+author = {Gershman, Samuel J and Blei, David M},
+file = {:home/genevieve/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Gershman, Blei - 2011 - A Tutorial on Bayesian Nonparametric Models.pdf:pdf},
+title = {{A Tutorial on Bayesian Nonparametric Models}},
+url = {https://arxiv.org/pdf/1106.2697.pdf},
+year = {2011}
+}
+@article{Griffiths2011,
+abstract = {The Indian buffet process is a stochastic process defining a probability distribution over equiva-lence classes of sparse binary matrices with a finite number of rows and an unbounded number of columns. This distribution is suitable for use as a prior in probabilistic models that represent objects using a potentially infinite array of features, or that involve bipartite graphs in which the size of at least one class of nodes is unknown. We give a detailed derivation of this distribution, and illustrate its use as a prior in an infinite latent feature model. We then review recent applications of the Indian buffet process in machine learning, discuss its extensions, and summarize its connections to other stochastic processes.},
+author = {Griffiths, Thomas L and Edu, Tom Griffiths@berkeley and Ghahramani, Zoubin and Uk, Zoubin@eng Cam Ac},
+file = {:home/genevieve/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Griffiths et al. - 2011 - The Indian Buffet Process An Introduction and Review.pdf:pdf},
+journal = {Journal of Machine Learning Research},
+keywords = {Chinese restaurant processes,Markov chain Monte Carlo,beta process,exchangeable distributions,latent variable models,nonparametric Bayes,sparse binary matrices},
+pages = {1185--1224},
+title = {{The Indian Buffet Process: An Introduction and Review}},
+url = {https://cocosci.berkeley.edu/tom/papers/indianbuffet.pdf},
+volume = {12},
+year = {2011}
+}
+@article{Newman,
+abstract = {We describe distributed algorithms for two widely-used topic models, namely the Latent Dirichlet Allocation (LDA) model, and the Hierarchical Dirichet Process (HDP) model. In our distributed algorithms the data is partitioned across separate processors and inference is done in a parallel, distributed fashion. We propose two distributed algorithms for LDA. The first algorithm is a straightforward mapping of LDA to a distributed processor setting. In this algorithm processors concurrently perform Gibbs sampling over local data followed by a global update of topic counts. The algorithm is simple to implement and can be viewed as an approximation to Gibbs-sampled LDA. The second version is a model that uses a hierarchical Bayesian extension of LDA to di-rectly account for distributed data. This model has a theoretical guarantee of convergence but is more complex to implement than the first algorithm. Our distributed algorithm for HDP takes the straightforward mapping approach, and merges newly-created topics either by matching or by topic-id. Using five real-world text corpora we show that distributed learning works well in prac-tice. For both LDA and HDP, we show that the converged test-data log probability for distributed learning is indistinguishable from that obtained with single-processor learning. Our extensive ex-perimental results include learning topic models for two multi-million document collections using a 1024-processor parallel computer.},
+author = {Newman, David and Asuncion, Arthur and Smyth, Padhraic and Welling, Max},
+file = {:home/genevieve/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Newman et al. - Unknown - Distributed Algorithms for Topic Models.pdf:pdf},
+journal = {Journal of Machine Learning Research},
+keywords = {distributed parallel computation,hierarchical Dirichlet processes,latent Dirichlet allocation,topic models},
+title = {{Distributed Algorithms for Topic Models}},
+url = {http://www.jmlr.org/papers/volume10/newman09a/newman09a.pdf},
+volume = {10},
+year = {2009}
+}
+@article{Raykov2016,
+author = {Raykov, Yordan P. and Boukouvalas, Alexis and Baig, Fahd and Little, Max A. and Ermani, M and Battistin, L},
+doi = {10.1371/journal.pone.0162259},
+editor = {Yoon, Byung-Jun},
+file = {:home/genevieve/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Raykov et al. - 2016 - What to Do When K-Means Clustering Fails A Simple yet Principled Alternative Algorithm.pdf:pdf},
+issn = {1932-6203},
+journal = {PLOS ONE},
+month = {sep},
+number = {9},
+pages = {e0162259},
+publisher = {MIT Press},
+title = {{What to Do When K-Means Clustering Fails: A Simple yet Principled Alternative Algorithm}},
+url = {http://dx.plos.org/10.1371/journal.pone.0162259},
+volume = {11},
+year = {2016}
+}
+@article{Sivic,
+abstract = {Objects in the world can be arranged into a hierarchy based on their semantic meaning (e.g. organism – animal – feline – cat). What about defining a hierarchy based on the visual appearance of objects? This paper investigates ways to automatically discover a hierarchical structure for the visual world from a collection of unlabeled images. Pre-vious approaches for unsupervised object and scene discov-ery focused on partitioning the visual data into a set of non-overlapping classes of equal granularity. In this work, we propose to group visual objects using a multi-layer hierar-chy tree that is based on common visual elements. This is achieved by adapting to the visual domain the generative Hierarchical Latent Dirichlet Allocation (hLDA) model pre-viously used for unsupervised discovery of topic hierarchies in text. Images are modeled using quantized local image re-gions as analogues to words in text. Employing the multi-ple segmentation framework of Russell et al. [22], we show that meaningful object hierarchies, together with object seg-mentations, can be automatically learned from unlabeled and unsegmented image collections without supervision. We demonstrate improved object classification and localization performance using hLDA over the previous non-hierarchical method on the MSRC dataset [33].},
+author = {Sivic, Josef and Russell, Bryan C and Zisserman, Andrew and Freeman, William T and Efros, Alexei A},
+file = {:home/genevieve/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Sivic et al. - Unknown - Unsupervised Discovery of Visual Object Class Hierarchies.pdf:pdf},
+title = {{Unsupervised Discovery of Visual Object Class Hierarchies}},
+url = {http://people.csail.mit.edu/billf/publications/Unsupervised{\_}Discovery.pdf}
+}
