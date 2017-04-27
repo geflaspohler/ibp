@@ -2,10 +2,6 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: scribe_header.aux
 The style file: apalike.bst
-White space in argument---line 35 of file scribe_header.aux
- : \bibdata{scribeadd,
- :                     scribe}
-I'm skipping whatever remains of this command
 Database file #1: scribeadd.bib
 Warning--empty journal in Gershman2011
 You've used 5 entries,
@@ -49,4 +45,4 @@ warning$ -- 1
 while$ -- 13
 width$ -- 0
 write$ -- 64
-(There was 1 error message)
+(There was 1 warning)
